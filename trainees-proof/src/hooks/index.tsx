@@ -1,0 +1,1 @@
+export { useAgeModal } from './useAgeModal/index'

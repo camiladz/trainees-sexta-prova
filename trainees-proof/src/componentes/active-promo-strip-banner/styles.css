@@ -1,0 +1,21 @@
+.activePromoStripBanner {
+    display: flex;
+    height: 48px;
+    padding: var(--radius-rounded-none, 0px) var(--spacing-9, 48px);
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-3, 8px);
+    flex-shrink: 0;
+
+    border-radius: var(--radius-rounded-none, 0px);
+    background: var(--color-green-300, #86EFAC);
+}
+
+.activePromoStripBanner span {
+    color: var(--text-slate-900, #0F172A);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}

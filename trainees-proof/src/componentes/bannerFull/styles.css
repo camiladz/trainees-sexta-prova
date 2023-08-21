@@ -1,0 +1,27 @@
+.bannerFullContent {
+    position: relative;
+    margin-top: 1rem;
+}
+.bannerFull {
+    width: 100%;
+}
+
+.leftArrowIcon {
+    position: absolute;
+    top: 178px;
+    left: 1rem;
+}
+
+.rightArrowIcon {
+    position: absolute;
+    top: 178px;
+    right: 1rem;
+}
+
+.bannerDots {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    bottom: 1.5rem;
+}

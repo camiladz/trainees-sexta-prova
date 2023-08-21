@@ -1,0 +1,32 @@
+.benefitsBarContent {
+    display: flex;
+    max-width: 1344px;
+    width: 100%;
+    padding-bottom: var(--spacing-7, 0px);
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: var(--radius-rounded-none, 0px);
+    border-bottom: 1px solid var(--border-slate-200, #E2E8F0);
+    margin: 2rem auto;
+    height: 52px;
+}
+
+.benefitDiscount,
+.benefitVariety,
+.benefitShipping,
+.benefitPayment{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.discountText,
+.varietyText,
+.shippingText,
+.paymentText {
+    color: var(--text-slate-600, #475569);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}

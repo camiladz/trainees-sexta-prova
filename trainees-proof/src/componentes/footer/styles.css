@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    padding: 1.5rem 0;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: var(--radius-rounded-none, 0px);
+    background: var(--bg-slate-100, #F1F5F9);
+}
+
+.footerText {
+    color: var(--text-slate-600, #475569);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
